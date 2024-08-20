@@ -15,12 +15,26 @@ The dataset used in this project is the "Monthly Southern Hemisphere Sea Ice Are
 
 ### Methodology:
 Two forecasting methods were employed: <br />
-Seasonal ARIMA (SARIMA): A statistical model that incorporates both autoregressive and moving average components, adjusted for seasonality. <br />
-Holt-Winters: A triple exponential smoothing method that accounts for level, trend, and seasonality in the time series data. <br />
+1. Seasonal ARIMA (SARIMA): A statistical model that incorporates both autoregressive and moving average components, adjusted for seasonality. <br />
+2. Holt-Winters: A triple exponential smoothing method that accounts for level, trend, and seasonality in the time series data. <br />
 
 ### Model Selection:
 The SARIMA model was selected based on inspection of autocorrelation and partial autocorrelation plots, with model comparison via the Akaike Information Criterion corrected (AICc). The Holt-Winters model was chosen for its simplicity and effectiveness in dealing with seasonal data. <br />
 
 ## Findings/Conclusions
+### Forecast Accuracy:
+When comparing the two models, the Holt-Winters method outperformed SARIMA across multiple error metrics, including RMSE, MAE, and MAPE, suggesting it is the more reliable method for this particular dataset. <br />
+
+### Forecast Results: 
+Both models indicate an accelerating decline in Antarctic sea ice over the next two years. However, some forecast intervals included impractical negative values, highlighting the limitations of these models in dealing with a zero lower bound. <br />
+
+### Future Directions: 
+Future work could explore the impact of global climate phenomena such as El Niño and La Niña on Antarctic sea ice, and investigate more sophisticated models that can better handle the physical constraints of sea ice data. <br />
+
+## References
+This project was conducted using data from the National Snow and Ice Data Center (NSIDC) and utilized R for data analysis and model implementation. Further details, including code and data visualizations, can be found within this repository.
+
+
+
 
 
