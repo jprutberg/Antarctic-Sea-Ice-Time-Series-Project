@@ -21,7 +21,7 @@ Two forecasting methods were employed: <br />
 ### Model Selection:
 The SARIMA model was selected based on inspection of autocorrelation and partial autocorrelation plots, with model comparison via the Akaike Information Criterion corrected (AICc). The Holt-Winters model was chosen for its simplicity and effectiveness in dealing with seasonal data. <br />
 
-## Findings/Conclusions
+## Findings and Conclusions
 ### Forecast Accuracy:
 When comparing the two models, the Holt-Winters method outperformed SARIMA across multiple error metrics, including RMSE, MAE, and MAPE, suggesting it is the more reliable method for this particular dataset. <br />
 
