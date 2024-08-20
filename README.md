@@ -1,7 +1,7 @@
 # Time Series Forecasting for Antarctic Sea Ice Using SARIMA and Holt-Winters Methods
 
 ## Introduction
-The ongoing impacts of climate change are dramatically altering polar ice coverage, with significant implications for global ecosystems. While the decline of Arctic sea ice has been well-documented, trends in Antarctic sea ice have been less clear, showing variability rather than a straightforward decline. This project aims to address this gap by forecasting Antarctic sea ice coverage using time series data and applying advanced statistical models to predict future trends. <br />
+The ongoing impacts of climate change are dramatically altering polar ice coverage, with significant implications for global ecosystems. While the decline of Arctic sea ice has been well-documented, trends in Antarctic sea ice have been less clear, showing variability rather than a straightforward decline. This project aims to address this gap by forecasting Antarctic sea ice coverage using time series packages in R and applying advanced statistical models to predict future trends. <br />
 
 ## Purpose
 The primary goal of this project is to forecast Antarctic sea ice coverage for the years 2024 and 2025 using two distinct time series forecasting methods: Seasonal ARIMA (SARIMA) and Holt-Winters. By comparing the performance of these models, this project seeks to provide insights into the expected trends in Antarctic sea ice and contribute to broader understanding of polar climate dynamics. <br />
